@@ -1,0 +1,77 @@
+# =====================
+# General Python Files
+# =====================
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+*.DS_Store
+
+# =====================
+# Virtual Environments
+# =====================
+venv/
+.env/
+.venv/
+Pipfile
+Pipfile.lock
+pyenv/
+poetry.lock
+*.egg-info/
+
+# =====================
+# Jupyter Notebooks
+# =====================
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# =====================
+# Logs & Debugging
+# =====================
+logs/
+*.log
+debug.log
+
+# =====================
+# macOS System Files
+# =====================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =====================
+# Data & Outputs
+# =====================
+data/*.csv
+data/*.json
+data/*.db
+data/*.sqlite
+data/*.pkl
+data/*.parquet
+data/*.h5
+
+# =====================
+# Model Files
+# =====================
+models/
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+
+# =====================
+# Cache & Temp Files
+# =====================
+.cache/
+*.tmp
+*.bak
+*.old
+
+# =====================
+# VS Code & JetBrains IDEs
+# =====================
+.vscode/
+.idea/
+*.iml
